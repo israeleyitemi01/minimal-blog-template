@@ -62,5 +62,82 @@ header {
     border-radius: 15px;
     background-color: whitesmoke;
 }
+/* blogs section */
+#blogs-section {
+    background-color: rgb(245, 241, 241);
+    padding: 25px 0;
+}
+.view-all {
+    width: 68%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.blogs-container {
+    width: 65%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-direction: column;
+}
+.blog {
+    padding: 20px;
+    width: 94%;
+    /* height: 300px; */
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.blog-text {
+    width: 70%;
+}
+.blog-text h2 {
+    margin-top: 12px;
+}
+.blog-text p {
+    margin-top: 15px;
+    color: grey;
+}
+.blog-image {
+    width: 28%;
+}
+.blog-text span {
+    color: grey;
+    font-size: 13px;
+}
+
+/* footer */
+.footer h2 {
+    padding-top: 3px;
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+.footer p {
+    padding-top: 9px;
+    text-align: center;
+}
+.footer, .button-footer {
+    padding-top: 28px;
+    justify-items: center;
+}
+.button-footer {
+    height: 58px;
+}
+.hr-div {
+    font-size: 12px;
+    text-align: center;
+    height: 20px;
+    padding-top: 14px;
+    position: relative;
+}
+
+
+
+
+
 
 
