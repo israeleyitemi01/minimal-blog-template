@@ -130,9 +130,8 @@ header {
 .hr-div {
     font-size: 12px;
     text-align: center;
-    height: 20px;
     padding-top: 14px;
-    position: relative;
+    height: 5px;
 }
 
 
